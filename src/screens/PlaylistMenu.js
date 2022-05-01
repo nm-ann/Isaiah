@@ -123,7 +123,7 @@ class PlaylistMenu extends React.Component {
                           });
                         }
                       }}
-                      text={item.toString()}
+                      text={item.title}
                       buttonStyle={styles.buttonContentTitle}
                       textStyle={styles.buttonText}
                     />

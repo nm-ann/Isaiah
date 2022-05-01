@@ -3,10 +3,10 @@
     "default": {
         "background": "./background_ipad.png",
         "keyword": {
-            "color": "#ffffff"
+            "color": "#f5d362"
         },
         "title": {
-            "color": "#ffffff"
+            "color": "#f5d362"
         },
         "padding": "50x200",
         "stack_title": true,
@@ -21,19 +21,19 @@
                 "font_weight": 800
             },
             "title":{
-                "text": "The Shabbat prayers",
+                "text": "The Book of Isaiah",
                 "font_size": 149
             }
         },
         {
             "filter": "chapter",
             "keyword": {
-                "text": "Learn",
+                "text": "Read",
                 "font_size": 150,
                 "font_weight": 800
             },
             "title": {
-                "text": "How to read the prayers\nwith the proper Nusach",
+                "text": "The text of Isaiah\nwith proper cantillation",
                 "font_size": 149
             }
         },
@@ -46,6 +46,18 @@
             },
             "title": {
                 "text": "Display and audio setting\naccording to your preferences",
+                "font_size": 149
+            }
+        },
+        {
+            "filter": "playlist",
+            "keyword": {
+                "text": "Save",
+                "font_size": 150,
+                "font_weight": 800
+            },
+            "title": {
+                "text": "Playlists to reference later",
                 "font_size": 149
             }
         },

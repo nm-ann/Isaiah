@@ -1,22 +1,17 @@
 [
-    {
-        "title": "chapter",
-        "iconName": "cog",
-        "nextScreen": "ChapterMenu"
-    },
-    {
-        "title": "chapter",
-        "iconName": "cog",
-        "nextScreen": "SectionMenu"
-    },
-    {
-        "title": "playlist",
-        "iconName": "music",
-        "nextScreen": "SectionMenu"
-    },
-    {
-        "title": "settings",
-        "iconName": "cog",
-        "nextScreen": "SettingsMenu"
-    }
+       {
+              "title": "chapters",
+              "iconName": "book",
+              "nextScreen": "ChapterMenu"
+       },
+       {
+              "title": "playlist",
+              "iconName": "music",
+              "nextScreen": "SectionMenu"
+       },
+       {
+              "title": "settings",
+              "iconName": "cog",
+              "nextScreen": "SettingsMenu"
+       }
 ]

@@ -6,13 +6,13 @@ const styles = StyleSheet.create({
     backgroundColor: colors.primary,
   },
   headerText: {
-    color: colors.secondary,
+    color: colors.title,
     fontWeight: 'bold',
   },
   mainScreenHeaderText: {
     fontFamily: 'StamAshkenazCLM',
     fontSize: 30,
-    color: colors.secondary,
+    color: colors.title,
   },
   chapterHeaderContainer: {
     display: 'flex',

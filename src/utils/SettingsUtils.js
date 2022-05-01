@@ -54,7 +54,7 @@ async function getSpeedSetting() {
 }
 
 export async function getHebrewSetting() {
-  return true;
+  return getSetting('hebrew', true);;
 }
 
 export async function getLineSetting() {

@@ -1,6 +1,7 @@
 {
-    "primary": "#deb744",
+    "primary": "#992518",
     "secondary": "white",
-    "tertiary": "#dcc788",
-    "tertiaryDark": "#cabe9a"
+    "tertiary": "#b04a2e",
+    "tertiaryDark": "#d46d50",
+    "title": "#f5d362"
 }

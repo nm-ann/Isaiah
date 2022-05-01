@@ -38,7 +38,7 @@ class App extends React.Component {
                 headerStyle: styles.header,
                 headerTitleAlign: 'center',
                 headerTitle: () => <MainScreenHeader />,
-                headerTintColor: colors.secondary,
+                headerTintColor: colors.title,
                 headerBackTitle: '',
               };
             }}
@@ -51,7 +51,7 @@ class App extends React.Component {
               headerStyle: styles.header,
               headerTitleStyle: styles.headerText,
               headerTitleAlign: 'center',
-              headerTintColor: colors.secondary,
+              headerTintColor: colors.title,
               headerBackTitle: '',
             })}
           />
@@ -63,7 +63,7 @@ class App extends React.Component {
               headerStyle: styles.header,
               headerTitleStyle: styles.headerText,
               headerTitleAlign: 'center',
-              headerTintColor: colors.secondary,
+              headerTintColor: colors.title,
               headerBackTitle: '',
             })}
           />
@@ -75,7 +75,7 @@ class App extends React.Component {
               headerStyle: styles.header,
               headerTitleStyle: styles.headerText,
               headerTitleAlign: 'center',
-              headerTintColor: colors.secondary,
+              headerTintColor: colors.title,
               headerBackTitle: '',
             })}
           />
@@ -87,7 +87,7 @@ class App extends React.Component {
               headerStyle: styles.header,
               headerTitleStyle: styles.headerText,
               headerTitleAlign: 'center',
-              headerTintColor: colors.secondary,
+              headerTintColor: colors.title,
               headerBackTitle: '',
             })}
           />
@@ -101,7 +101,7 @@ class App extends React.Component {
               headerStyle: styles.header,
               headerTitleStyle: styles.headerText,
               headerTitleAlign: 'center',
-              headerTintColor: colors.secondary,
+              headerTintColor: colors.title,
               headerBackTitle: '',
             })}
           />
@@ -113,7 +113,7 @@ class App extends React.Component {
               headerStyle: styles.header,
               headerTitleStyle: styles.headerText,
               headerTitleAlign: 'center',
-              headerTintColor: colors.secondary,
+              headerTintColor: colors.title,
               headerBackTitle: '',
             })}
           />
@@ -126,7 +126,7 @@ class App extends React.Component {
                 headerStyle: styles.header,
                 headerTitleStyle: styles.headerText,
                 headerTitleAlign: 'center',
-                headerTintColor: colors.secondary,
+                headerTintColor: colors.title,
                 headerBackTitle: '',
               };
             }}

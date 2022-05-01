@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
   },
   icon: {
     backgroundColor: colors.tertiary,
-    color: colors.secondary,
+    color: colors.title,
     borderRadius: 50,
     width: 50,
     padding: 10,

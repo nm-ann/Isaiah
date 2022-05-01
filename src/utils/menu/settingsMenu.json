@@ -16,6 +16,14 @@
         "disabled": false
     },
     {
+        "title": "Language",
+        "subtitle": "Hebrew only or Hebrew and English",
+        "settingsName": "hebrew",
+        "leftText": "א",
+        "rightText": "אA",
+        "disabled": false
+    },
+    {
         "title": "Text Size",
         "subtitle": "Regular or Large Font",
         "settingsName": "smallText",

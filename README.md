@@ -37,7 +37,7 @@ To change the ios app's name, open `ios/app_name/Info.plist` and update the bund
 # Generating Screenshots and Icons
 I like to use `https://coolors.co/generate` to explore color schemes
 
-Take screenshots for android and ios and put them in `listing/screenshots/android` and `listing/screenshots/ios`. Name android screenshots `android_$screen`, ipad screenshots `ipad_$screen`, and iphone screenshots `iphone_$screen`. Modify `listing/screenshots/framefile.json` to include the right colors, screen names, and text. Create an app icon and place it in `listing/`. Then cd into the `listing` directory and run `./gen_graphics -c $hex_color -i $icon_name`.
+Take screenshots for android and ios and put them in `listing/screenshots/android` and `listing/screenshots/ios`. Name android screenshots `android_$screen`, ipad screenshots `ipad_$screen`, and iphone screenshots `iphone_$screen`. Modify `listing/screenshots/framefile.json` to include the right colors, screen names, and text. Create an app icon and place it in `listing/`. Then cd into the `listing` directory and run `./gen_graphics.sh -c $hex_color -i $icon_name`.
 
 # Deployment
 ## Android

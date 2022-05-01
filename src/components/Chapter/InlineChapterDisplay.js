@@ -2,7 +2,6 @@ import React from 'react';
 import { View } from 'react-native';
 import gematriya from 'gematriya';
 import TouchableText from './TouchableText';
-import BlockChapterText from './BlockChapterText';
 
 class InlineChapterDisplay extends React.Component {
   constructor(props) {
@@ -22,7 +21,8 @@ class InlineChapterDisplay extends React.Component {
   render() {
     return (
       <View>
-        {this.props.hebrewText.map((line, index) => {
+        {this.props.hebrewOnly
+          ? this.props.hebrewText.map((line, index) => {
             let lineNum = gematriya(index + 1, { punctuate: false });
             let isSelected = index === this.props.selectedIndex;
             return (
@@ -37,16 +37,30 @@ class InlineChapterDisplay extends React.Component {
                 key={index}
               />
             );
-        })}
-        {!this.props.hebrewOnly ? (<BlockChapterText
-          isParagraph={this.props.isParagraph}
-          isHebrew={false}
-          text={this.props.englishText}
-          showSmallText={this.props.showSmallText}
-          selectedIndex={this.props.selectedIndex}
-          onSelect={this.props.onSelect}
-        />) : <View />}
-          
+          })
+          : this.text.map((line, index) => {
+            let lineIndex = Math.floor(index / 2);
+            let lineNum =
+              index % 2 == 0
+                ? gematriya(lineIndex + 1, { punctuate: false })
+                : lineIndex + 1;
+            let isSelected = lineIndex === this.props.selectedIndex;
+            if (line === undefined) line = '';
+            return (
+              <TouchableText
+                index={lineIndex}
+                lineNum={lineNum}
+                text={line}
+                showSmallText={this.props.showSmallText}
+                selected={isSelected}
+                onSelect={this.selectText}
+                style={
+                  index % 2 == 0 ? { textAlign: 'right' } : { textAlign: 'left' }
+                }
+                key={index}
+              />
+            );
+          })}
       </View>
     );
   }
